@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const createBtn = document.querySelector('.create-btn');
-
-    createBtn.addEventListener('click', () => {
-        alert('Create account clicked (demo only).');
-    });
-});
-
-document.addEventListener('DOMContentLoaded', () => {
     const usernameField = document.querySelector('.input-field[type="text"]');
     const passwordField = document.querySelector('.input-field[type="password"]');
     const loginBtn = document.querySelector('.login-btn');
